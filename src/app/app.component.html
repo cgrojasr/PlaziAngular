@@ -1,3 +1,7 @@
+<!--STRING INTERPOLATION-->
 {{ 'Hola mundo' }}
 {{ 1 + 2 }}
 {{ title }}
+<!--DATA BINDING
+  No te olvides de importar en el app.modulo el FormModule para que funcione ngModel-->
+<input type="text" [(ngModel)] = "title">
