@@ -5,3 +5,7 @@
 <!--DATA BINDING
   No te olvides de importar en el app.modulo el FormModule para que funcione ngModel-->
 <input type="text" [(ngModel)] = "title">
+<!--*ngIf-->
+<div *ngIf="title === 'Christian'">
+  Esto es un div
+</div>
